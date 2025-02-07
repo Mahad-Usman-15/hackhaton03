@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-weight: bolder;
+  margin-left: 10%; /* Use percentage for better responsiveness */
+}
+
+.login {
+  font-weight: bolder;
+  margin-right: 5%; /* Adjusted to be responsive */
+}
+
+.child-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 5%; /* Add padding for consistent spacing */
+}
+
+.header-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 5%;
+  color: grey;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+}
+
+.cards {
+  width: 90%; /* Adjust card width to be relative */
+  max-width: 205px; /* Set a max width for larger screens */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px auto; /* Center cards with margin */
+}
+
+.text {
+  margin: 5%; /* Use percentages for consistent spacing */
+}
+
+.main {
+  padding: 0 5%; /* Add padding for responsive layout */
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  h1 {
+    margin-left: 5%;
+    font-size: 1.5rem; /* Reduce font size for smaller screens */
+  }
+
+  .login {
+    margin-right: 5%;
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .header-items {
+    margin: 0 2%;
+    gap: 10px; /* Reduce spacing between items */
+  }
+
+  .cards {
+    width: 100%; /* Use full width on smaller screens */
+    max-width: none;
+  }
+
+  .text {
+    margin: 2%; /* Reduce margin for smaller screens */
+  }
+}
+
+.button{
+  background-color:#2DC071;
+
+}
+.Parent{
+  background-image: URL(shop-hero-1-product-slide-1.jpg) ;
+}
+.text1{
+font-size: 30px;
+margin: 10px;
+color:white;
+}
+.text2{
+margin-right:500px ;
+}
+.text3{
+  color:white;
+  font-size:80px
+}
+.text4{
+  margin-left: 400px;
+}
+.text5{
+  margin-bottom: 120px;
+}
+
+
+@media (max-width : 700px){
+  .img{
+    height: 800px;
+    width:400px ;
+  }
+  .img1{
+    display: none;
+  }
+}
+
+
+.div1 {
+  background-image: url("fixed-height (1).png");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the div without repeating */
+  background-position: center; /* Centers the image within the div */
+}
+.div2 {
+  background-image: url("filter (1).png");
+  height: 400px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the div without repeating */
+  background-position: center; /* Centers the image within the div */
+}
+
+.div3 {
+  background-image: url("filter (2).png");
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the div without repeating */
+  background-position: center; /* Centers the image within the div */
+}
+
+.div4 {
+  background-image: url("filter (3).png");
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the div without repeating */
+  background-position: center; /* Centers the image within the div */
+}
+
