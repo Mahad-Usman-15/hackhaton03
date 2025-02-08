@@ -83,11 +83,11 @@ export default function Home() {
               key={prod._id}
               className="flex justify-center align-center  items-center flex-col w-60 h-80 shadow-md rounded transition-transform transform hover:-translate-y-2"
             >
-              <Link href={`/product/${prod.name}`}>
+{/*               <Link href={`/product/${prod.name}`}> */}
                 <Image src={prod.imageUrl} width={80} height={60} alt="pic" className="mr-6"/>
                 <h1 className="font-extrabold">{prod.name}</h1>
                 <h4 className="font-bold">Rs {prod.price}</h4>
-              </Link>
+{/*               </Link> */}
               <button
                 className="mt-2 bg-blue-400 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition"
                 onClick={(e) => handleInput(e, prod)}
